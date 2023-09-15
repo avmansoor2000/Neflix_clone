@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+}
+.banner {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/ed2b002b-c6c5-459c-9c97-753f50e8286b/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  height: 700px;
+  color: white;
+  width: 100%;
+   
+  }
+/* Navbar */
+  .navbar{
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    position: absolute; /* or absolute, fixed, etc. depending on your layout needs */
+    top: 0px;
+    
+   
+}
+
+.logo{
+
+left: 30px;
+width: 150px;
+margin-left: 30PX;
+}
+
+.signup-btn {
+    background-color: #e50914;
+    color: #fff;
+    position: absolute;
+    right: 65px;
+    width: 80px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* NavbarEnd */
+  .banner h1 {
+    text-align: center; /* Center-align horizontally */
+    margin: 0; /* Remove default margin to avoid extra spacing */
+  }
+  
+  /* Pseudo-element for the shadow overlay */
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity value for the shadow */
+    z-index: -1; /* Place the overlay behind the content */
+  }
+
+
+
+.content{
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 15px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    background-color: rgba(51, 51, 51, .5);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.button:hover{
+    color: black;
+    background-color: #e6e6e6;
+}
+
+.description{
+    margin-left: 100px;
+    /* align-items: center; */
+       
+}
+
+
+
+.fade_bottom{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+
+}
+
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+  /* Styles for the email input */
+  .email-input {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the "Get Started" button */
+  .get-started-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .NavBar{
+    position: absolute;
+  }
+  
+
+  

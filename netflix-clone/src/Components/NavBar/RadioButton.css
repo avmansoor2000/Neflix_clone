@@ -1,0 +1,19 @@
+*{
+    color: #fff;
+}
+/* Radio button styles */
+input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Selected radio button label styles */
+  input[type="radio"]:checked + label {
+    color: blue; /* Change the color of the selected label */
+    font-weight: bold; /* Make the selected label bold */
+  }
